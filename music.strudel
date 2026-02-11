@@ -1,0 +1,32 @@
+const lpf_cutoff = slider(2800, 300, 8000, 2500)
+
+stack(
+  note("<[a3 c4 e4 g4] [f3 a3 c4 e4]>")
+    .sound("piano")
+    .room(0.8)
+    .gain(0.7),
+
+  note("<~ [e5 ~ d5 ~] ~ [c5 ~ b4 ~]>")
+    .sound("piano")
+    .room(0.8)
+    .gain(0.7),
+
+  sound("bd ~ bd ~")
+    .gain(0.5),
+
+  sound("<[hh:3 ~ hh:6 ~ hh:3 ~ hh:6 ~]>")
+    .gain(0.3)
+    .lpf(lpf_cutoff)
+    .pan(sine.slow(4))
+    .room(0.6),
+
+  note("<[c5,e5,g5] ~ [b4,d5,f5] ~>")
+    .sound("triangle")
+    .gain(0.2),
+
+  note("<[a2 ~ ~ e3 ~ g2 ~ ~]>")
+    .sound("sawtooth")
+    .gain(0.25)
+    .lpf(14000)
+    .room(0.9),
+)
