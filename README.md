@@ -14,6 +14,10 @@ The goal of this project is to experiment with:
 - JavaScript-based pattern syntax
 - Web Audio API (through Strudel)
 
+ ## 🎥 Preview
+
+[▶️ Watch the demo](assets/preview.mp4) 
+
 ## How to Run
 
 1. Open: https://strudel.cc
