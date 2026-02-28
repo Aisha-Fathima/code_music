@@ -23,4 +23,4 @@ The goal of this project is to experiment with:
 4. Click **Run** to play the melody.
 
 ## 🌧 Inspiration
-Late nights, quiet cafés, and the sound of rain.
+perhaps my "late night" playlist on spotify?
