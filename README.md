@@ -24,4 +24,3 @@ The goal of this project is to experiment with:
 
 ## 🌧 Inspiration
 perhaps my "late night" playlist on spotify?
-[![Medium](https://img.shields.io/badge/Read%20on-Medium-black?logo=medium)](https://medium.com/@aishafathimamohammed/darwinai-simulating-natural-selection-in-javascript-e8c6dbcf2841)
